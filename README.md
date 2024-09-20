@@ -4,6 +4,8 @@ This is a DDR3 SDRAM (**MT41K256M16TW-107, 512MB**) sample project for A7-LITE F
 Please use **Vivado 2024.1**. 
 When creating a Vivado project, please select **xc7a100tfgg484-1** as an FPGA. 
 
+![main](https://github.com/user-attachments/assets/7635294e-d5ae-4a0c-ae29-7b581cc55e74)
+
 **main.c** will explain what this Verilog code tries to do.
 First, write 1 to all 32-bit words in the DRAM, then read all the words and display the sum of them in VIO.
 The final sum will be **67,108,864**.
